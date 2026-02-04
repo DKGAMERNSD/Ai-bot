@@ -67,7 +67,7 @@ async def on_message(message):
 
     try:
         prompt = f"""
-You are Swills AI Support Bot.
+You are AI Support Bot.
 
 Answer the user's question ONLY using the information from the PDF below.
 Answers should not be big and should be easy to understand.
