@@ -25,7 +25,7 @@ FALLBACK_MESSAGE = (
 )
 
 
-client_ai = OpenAI(api_key=OPENAI_API_KEY)
+client_ai = OpenAI(api_key=)
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -59,7 +59,7 @@ async def on_message(message):
     if message.author.bot:
         return
 
-    if message.channel.id != ALLOWED_CHANNEL_ID:
+    if message.channel.id != :
         return
 
     if not user_has_role(message.author):
