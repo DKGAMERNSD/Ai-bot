@@ -51,7 +51,7 @@ def user_has_role(member):
 
 @client.event
 async def on_ready():
-    print(f"✅ Logged in as {client.user}")
+    print(f" Logged in as {client.user}")
 
 
 @client.event
